@@ -1,0 +1,12 @@
+{
+  "Login": "Login",
+  "Email": "Email",
+  "Password": "Password",
+  "Confirm": "Confirm",
+  "Cancel": "Cancel",
+  "Error":  {
+    "Required": "{{field}} is required",
+    "Invalid": "Invalid {{field}}"
+    },
+  "Welcome": "Welcome"
+}

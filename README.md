@@ -10,7 +10,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Method 1 : Start the app by EXPO
 
    ```bash
    npx expo start
@@ -25,6 +25,18 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
+3. Method 2 : Start the app by Simulator
+
+ - ios
+   ```bash
+   npx expo run:ios
+   ```
+
+ - android
+   ```bash
+   npx expo run:android
+   ```
+   
 ## Get a fresh project
 
 When you're ready, run:
