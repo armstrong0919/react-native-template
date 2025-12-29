@@ -6,11 +6,11 @@ import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Link } from 'expo-router';
 import { useTranslation } from 'react-i18next'
-import {timeDisplay} from '../../utils/date'
+import { requestCameraPermission } from "../../utils/permission"
 
 export default function HomeScreen() {
 const { t } = useTranslation();
-console.log("--time--", timeDisplay("2023-08-08T10:00:00Z"))
+requestCameraPermission()
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
